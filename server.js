@@ -7,6 +7,9 @@ const path=require('path');
 
 const PORT=process.env.PORT || 3000;
 
+//Assets
+app.use(express.static('public'));
+
 
 app.get('/',(req,resp)=>resp.render('home'));
 
@@ -18,3 +21,4 @@ app.set('view engine','ejs');
 
 
 app.listen(PORT, ()=> console.log(`Listening on kalpitzz port ${PORT}`));
+

@@ -4,6 +4,11 @@ body {
   color: #232323;
 }
 
+.logo-design {
+  background: #FE5F1E;
+  color: white;
+}
+
 nav li:last-child a {
   background: #FE5F1E;
 }
@@ -35,4 +40,41 @@ section.hero {
   background: #FE5F1E;
   border-color: #fff;
   color: #fff;
+}
+
+.btn-primary {
+  background: #FE5F1E;
+  transition: all 0.3s ease-in-out;
+}
+.btn-primary:hover {
+  background: #b23301;
+}
+
+section.cart {
+  background: #F8F8F8;
+}
+section.cart .amount {
+  color: #FE5F1E;
+}
+
+div.login {
+  background: #F8F8F8;
+  min-height: 89.8vh;
+}
+
+.btn-login-social {
+  background: #93b4c4;
+  border: 1px solid black;
+  font-weight: bolder;
+  transition: all 0.3s ease-in-out;
+}
+.btn-login-social:hover {
+  background: #024f97;
+}
+
+.forget-pass {
+  color: #FE5F1E;
+}
+.forget-pass:hover {
+  color: #b23301;
 }

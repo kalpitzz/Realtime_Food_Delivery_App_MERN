@@ -6,6 +6,10 @@ body{
     -webkit-font-smoothing:antialiased;
     color:$dark;
 }
+.logo-design{
+    background: $primary;
+    color: white;
+}
 nav li:last-child a{
     background:$primary;
     &:hover{
@@ -33,5 +37,39 @@ section.hero{
         background: $primary;
         border-color:$pure ;
         color: $pure;
+    }
+}
+
+.btn-primary{
+    background: $primary;
+    transition: $smooth;
+    &:hover{
+        background: $primary-hover;
+    }
+}
+
+section.cart{
+    background: $secondary;
+    .amount{
+        color: $primary;
+    }
+}
+div.login{
+    background: $secondary;
+    min-height: 89.8vh
+}
+.btn-login-social{
+    background: rgb(147, 180, 196);
+    border: 1px solid black;
+    font-weight: bolder;
+    transition: $smooth;
+    &:hover{
+        background: rgb(2, 79, 151);
+    }
+}
+.forget-pass{
+    color: $primary;
+    &:hover{
+        color: $primary-hover;
     }
 }

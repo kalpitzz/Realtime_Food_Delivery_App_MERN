@@ -1,7 +1,11 @@
 # Toscano Pizza Ordering Web Application
-An Website for ordering pizza online using Node & Express Framework along with stripe payment system.
+### An Website for ordering pizza online using Node & Express Framework along with stripe payment system.
 
-
+![alt text](/ReadMe_img/1.PNG)
+![alt text](/ReadMe_img/2.PNG)
+![alt text](/ReadMe_img/3.PNG)
+![alt text](/ReadMe_img/4.PNG)
+![alt text](/ReadMe_img/5.PNG)
 
 ## Technologies 
 - Node JS
